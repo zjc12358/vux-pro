@@ -1,21 +1,25 @@
 # vux-pro
 
-> A Vue.js project
+> 使用 vue + vue-router + webpack + vuex + mint-ui 实现
 
-## Build Setup
+## 启动项目
 
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
+```sh
+安装依赖
+$ npm install
+启动项目
+$ npm run dev
+在浏览器中输入 http://localhost:8080
 ```
+## 链接
+* [demo](https://main.hzleshare.net/mobile/index.html#/)
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## 项目目录
+```sh
+components // 自定义组件
+assets // 静态文件资源
+pages // 项目的页面view
+router // 项目的路由定义
+store // vuex的定义
+utils // 项目自定义工具集合
+```
